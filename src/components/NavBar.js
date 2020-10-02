@@ -6,11 +6,13 @@ function NavBar(props) {
     
 
     return (
-        <>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-             <h1>Welcome to my portfolio.</h1> 
-        </nav>
-        </>
+        <div id="navbar">
+         <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <h1>Hello there</h1>
+          </div>
+         </nav>
+        </div>
     )
 }
 
