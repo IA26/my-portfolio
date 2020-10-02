@@ -7,7 +7,9 @@ function NavBar(props) {
 
     return (
         <>
-            <h1>Welcome to my portfolio.</h1> 
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+             <h1>Welcome to my portfolio.</h1> 
+        </nav>
         </>
     )
 }
