@@ -6,13 +6,17 @@ function NavBar(props) {
     
 
     return (
-        <div id="navbar">
-         <nav class="navbar" role="navigation" aria-label="main navigation">
+         <nav class="navbar navbar-start" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
-            <h1>Hello there</h1>
+            <ul>
+                <li>
+                    <NavLink to="/contact" className="nav-link header-image" activeClassName="" >
+                        Contact info
+                    </NavLink>
+                </li>
+            </ul>
           </div>
          </nav>
-        </div>
     )
 }
 
