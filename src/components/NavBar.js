@@ -7,14 +7,14 @@ function NavBar(props) {
 
     return (
          <nav class="navbar navbar-start" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <ul>
-                <li>
+           <div id="navbarBasicExample" class="navbar-menu">
+              <div class="navbar-start">
+                  <a class="navbar-item">
                     <NavLink to="/contact" className="nav-link header-image" activeClassName="" >
                         Contact info
                     </NavLink>
-                </li>
-            </ul>
+                </a>   
+            </div>
           </div>
          </nav>
     )
