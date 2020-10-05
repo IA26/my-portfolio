@@ -13,7 +13,13 @@ function NavBar(props) {
                     <NavLink to="/contact" className="nav-link header-image" activeClassName="" >
                         Contact info
                     </NavLink>
-                </a>   
+                  </a>   
+                  
+                  <a class="navbar-item">
+                    <NavLink to="/contact" className="nav-link header-image" activeClassName="" >
+                        Personal Projects
+                    </NavLink>
+                 </a>
             </div>
           </div>
          </nav>
