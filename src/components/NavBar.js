@@ -6,23 +6,19 @@ function NavBar(props) {
     
 
     return (
-         <nav class="navbar navbar-start" role="navigation" aria-label="main navigation">
-           <div id="navbarBasicExample" class="navbar-menu">
-              <div class="navbar-start">
-                  <a class="navbar-item">
-                    <NavLink to="/contact" className="nav-link header-image" activeClassName="" >
-                        Contact info
-                    </NavLink>
-                  </a>   
-                  
-                  <a class="navbar-item">
-                    <NavLink to="/contact" className="nav-link header-image" activeClassName="" >
-                        Personal Projects
-                    </NavLink>
-                 </a>
-            </div>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+          <div className="collapse navbar-collapse vertically-centered" id="navbarNav">
+            <ul className="navbar-nav">
+             <li className="nav-item">
+                <NavLink to="/login" className="nav-link" >Portfolio</NavLink>
+             </li>
+           
+             <li className="nav-item" >
+                 <NavLink to="/register" className="nav-link">Projects</NavLink>
+             </li>  
+            </ul>
           </div>
-         </nav>
+       </nav>
     )
 }
 
