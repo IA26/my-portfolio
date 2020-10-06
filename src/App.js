@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './components/NavBar'
+import Portfolio from './containers/Portfolio'
 import { Router, Route, Switch } from "react-router";
 import './App.css';
 
@@ -9,7 +10,7 @@ function App() {
         <div id="content-wrap"> 
           <NavBar/>
            <Switch>
-
+              <Route exact path="/" render component={ Portfolio }/>
            </Switch>
         </div> 
     </div>
