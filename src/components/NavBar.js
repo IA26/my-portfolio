@@ -6,9 +6,9 @@ function NavBar(props) {
     
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
           <div className="collapse navbar-collapse vertically-centered">
-            <ul className="navbar-nav mr-auto list-unstyled">
+            <ul className="navbar-nav ml-auto list-unstyled">
              <li className="nav-item">
                 <NavLink to="/" className="nav-link" >Portfolio</NavLink>
              </li>
@@ -18,7 +18,7 @@ function NavBar(props) {
              </li>
 
              <li className="nav-item">
-                <NavLink to="/contact" className="nav-link">Contact</NavLink>
+                <NavLink to="/contact" className="nav-link">Contact Me</NavLink>
              </li>
 
             </ul>
@@ -28,3 +28,13 @@ function NavBar(props) {
 }
 
 export default NavBar;
+
+
+const reverse = (string) => { 
+    let reversed = ''
+
+    for (let character of string) {
+        reversed = character + reversed;
+    }
+   return reversed; 
+}
