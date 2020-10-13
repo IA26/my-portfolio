@@ -25,6 +25,12 @@ function NavBar(props) {
                 <li className="nav-item">
                    <NavLink to="/contact" className="nav-link" activeClassName="">Contact Me</NavLink>
                 </li>
+
+                <li>
+                    <a href="https://www.youtube.com/">
+                        <img id="images" src="https://www.flaticon.com/svg/static/icons/svg/25/25231.svg"/> 
+                    </a>
+                </li>
             </ul>
           </div>
        </nav>
