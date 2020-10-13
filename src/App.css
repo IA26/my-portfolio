@@ -38,5 +38,15 @@
 }
 
 #bg-colour {
-  background-color: black;
+  /* background-color: black; */
+
+  background-image: linear-gradient(black, white);
+}
+
+#main-page { 
+  background-image:
+  linear-gradient(
+      to right, 
+      black, white
+    );
 }
