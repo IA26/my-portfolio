@@ -46,8 +46,8 @@
 
 .images {
   margin: 2px;
-  width: 35px;
+  width: auto;
   height: 35px;
-  border: 4px solid black; 
+  border: 3.5px solid black; 
   border-radius: 10px;
 }

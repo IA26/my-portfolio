@@ -38,7 +38,7 @@ function NavBar(props) {
                 </li>
                 <li>
                     <a href="https://www.youtube.com/">
-                        <img className="images" src="https://www.flaticon.com/svg/static/icons/svg/25/25657.svg"/> 
+                        <img className="images" src="https://www.flaticon.com/svg/static/icons/svg/2111/2111532.svg"/> 
                     </a>
                 </li>
             </ul>
