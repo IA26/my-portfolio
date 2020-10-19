@@ -28,12 +28,12 @@ function NavBar(props) {
 
                 <li>
                     <a href="https://github.com/IA26">
-                        <img className="images" src="https://www.flaticon.com/svg/static/icons/svg/25/25657.svg"/> 
+                        <img className="images" src="https://image.flaticon.com/icons/png/512/23/23807.png"/> 
                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/">
-                        <img className="images" src="https://www.flaticon.com/svg/static/icons/svg/1384/1384088.svg"/> 
+                        <img className="images" src="https://www.flaticon.com/svg/static/icons/svg/2111/2111543.svg"/> 
                     </a>
                 </li>
                 <li>
