@@ -29,17 +29,17 @@ function NavBar(props) {
 
             <ul className="nav navbar-nav nav-flex-icons ml-auto">
                 <li className="nav-item">
-                    <a className="nav-link waves-effect images" target="_blank" href="https://github.com"> 
+                    <a className="nav-link waves-effect" target="_blank" href="https://github.com"> 
                          <i class="fas fa-code-branch fa-lg"></i>
                      </a>
                  </li>
                 <li className="nav-item">
-                     <a className="nav-link waves-effect images" target="_blank" href="https://medium.com"> 
+                     <a className="nav-link waves-effect" target="_blank" href="https://medium.com"> 
                          <i class="fab fa-medium-m fa-lg white-text"></i>
                      </a>
                 </li>
                 <li className="nav-item">
-                     <a className="nav-link waves-effect images" target="_blank" href="https:/linkedin.com"> 
+                     <a className="nav-link waves-effect" target="_blank" href="https:/linkedin.com"> 
                          <i class="fab fa-linkedin-in mdb-gallery-view-icon fa-lg white-text"></i>
                      </a>
                 </li>
