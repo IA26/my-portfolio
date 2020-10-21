@@ -17,7 +17,7 @@ function NavBar(props) {
 
 
 
-            <ul className="navbar-nav ml-auto list-unstyled">
+            <ul className="navbar-nav ml-auto list-unstylednav-flex-icons">
                 <li className="nav-item" >
                     <NavLink to="/projects" className="nav-link" activeClassName="">Projects</NavLink>
                 </li>
@@ -28,7 +28,7 @@ function NavBar(props) {
 
                 <li>
                     <a href="https://github.com/IA26">
-                        <img  className="images logos   " src="https://image.flaticon.com/icons/png/512/23/23807.png" /> 
+                        <i  className="images logos" src="https://image.flaticon.com/icons/png/512/23/23807.png" /> 
                     </a>
                 </li>
                 <li>
