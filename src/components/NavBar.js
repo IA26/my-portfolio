@@ -29,14 +29,14 @@ function NavBar(props) {
 
             <ul className="nav navbar-nav nav-flex-icons ml-auto">
                 <li className="nav-item">
-                    <a className="nav-link waves-effect" target="_blank" href="https://github.com"> 
-                         <i class="fab fa-github mr-2"></i>
+                    <a className="nav-link waves-effect images" target="_blank" href="https://github.com"> 
+                         <i class="fab fa-github mr-2 fa-lg"></i>
                      </a>
                  </li>
                 <li>
-                    <a href="https://www.youtube.com/">
-                        <img className="images" src="https://www.flaticon.com/svg/static/icons/svg/2111/2111543.svg"/> 
-                    </a>
+                     <a className="nav-link waves-effect images" target="_blank" href="https://medium.com"> 
+                         <i class="fab fa-medium-m fa-lg white-text"></i>
+                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/">
