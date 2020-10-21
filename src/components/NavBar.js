@@ -7,7 +7,6 @@ function NavBar(props) {
 
     return (
     <nav className="navbar navbar-expand-lg navbar-dark" id="bg-colour">
-        <div class="container">
           <div className="collapse navbar-collapse vertically-centered">
             <ul className="navbar-nav list-unstyled">
                 <li class="nav-item">
@@ -46,7 +45,6 @@ function NavBar(props) {
                 </li>
             </ul>
           </div>
-        </div>
        </nav>
     )
 }
