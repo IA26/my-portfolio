@@ -48,11 +48,10 @@
   margin: 4px;
   width: 20px;
   height: 20px;
-  
-  /* border: 3.5px solid black; 
-  border-radius: 10px; */
+  max-height: 75%;
+
 }
 
-img:hover {
+.logos:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }

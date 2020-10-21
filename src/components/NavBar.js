@@ -28,7 +28,7 @@ function NavBar(props) {
 
                 <li>
                     <a href="https://github.com/IA26">
-                        <img className="images" src="https://image.flaticon.com/icons/png/512/23/23807.png" /> 
+                        <img  className="images logos   " src="https://image.flaticon.com/icons/png/512/23/23807.png" /> 
                     </a>
                 </li>
                 <li>
