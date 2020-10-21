@@ -39,9 +39,9 @@ function NavBar(props) {
                      </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/">
-                        <img className="images" src="https://www.flaticon.com/svg/static/icons/svg/2111/2111532.svg"/> 
-                    </a>
+                     <a className="nav-link waves-effect images" target="_blank" href="https:/linkedin.com"> 
+                         <i class="fab fa-linkedin-in mdb-gallery-view-icon fa-lg white-text"></i>
+                     </a>
                 </li>
             </ul>
           </div>
