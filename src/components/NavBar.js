@@ -33,12 +33,12 @@ function NavBar(props) {
                          <i class="fas fa-code-branch fa-lg"></i>
                      </a>
                  </li>
-                <li>
+                <li className="nav-item">
                      <a className="nav-link waves-effect images" target="_blank" href="https://medium.com"> 
                          <i class="fab fa-medium-m fa-lg white-text"></i>
                      </a>
                 </li>
-                <li>
+                <li className="nav-item">
                      <a className="nav-link waves-effect images" target="_blank" href="https:/linkedin.com"> 
                          <i class="fab fa-linkedin-in mdb-gallery-view-icon fa-lg white-text"></i>
                      </a>
