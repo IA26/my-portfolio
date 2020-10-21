@@ -38,9 +38,9 @@
 }
 
 #bg-colour {
-  /* background-color: black; */
+  background-color: black;
 
-  background-image: linear-gradient(black, white);
+  /* background-image: linear-gradient(black, white); */
 }
 
 

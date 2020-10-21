@@ -27,10 +27,10 @@ function NavBar(props) {
                 </li>
             </ul>
 
-            <ul className="navbar-nav nav-flex-icons">
+            <ul className="nav navbar-nav nav-flex-icons ml-auto">
                 <li className="nav-item">
-                      <a className="nav-link">
-                        <i className="fab fa-facebook light-green-text-2"></i>
+                    <a className="nav-link waves-effect" target="_blank" href="https://github.com"> 
+                         <i class="fab fa-github mr-2"></i>
                      </a>
                  </li>
                 <li>
