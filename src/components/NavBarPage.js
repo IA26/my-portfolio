@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
+MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon 
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -17,14 +17,11 @@ function NavbarPage(props) {
 
 
 
-
         <MDBNavbarNav right> 
-          <MDBNavItem className="white-text">
-           <a className="nav-link waves-effect images" target="_blank" href="https://medium.com"> 
-               <i class="fab fa-medium-m fa-lg white-text"></i>
-           </a>
-          </MDBNavItem>
-        
+        <MDBNavItem>
+          <MDBNavLink className="waves-effect waves-light d-flex align-items-center" to="#!">
+                <MDBIcon icon="envelope" className="mr-1" />Contact</MDBNavLink>
+        </MDBNavItem>
         </MDBNavbarNav>
       </MDBNavbar>
     );
