@@ -19,7 +19,7 @@ function NavbarPage(props) {
 
 
         <MDBNavbarNav right> 
-          <MDBNavItem> Contact me</MDBNavItem>
+          <MDBNavItem className="white-text"> Contact me</MDBNavItem>
         
         </MDBNavbarNav>
       </MDBNavbar>
