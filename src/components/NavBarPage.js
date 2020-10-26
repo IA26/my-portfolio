@@ -9,7 +9,15 @@ function NavbarPage(props) {
 
   return (
       <MDBNavbar color="black" dark expand="md">
-        <MDBNavbarBrand> Portfolio </MDBNavbarBrand>
+        <MDBNavbarBrand href="#"> Isaac Avilez </MDBNavbarBrand>
+         <MDBNavbarNav left>
+          <MDBNavItem></MDBNavItem>
+         </MDBNavbarNav>
+
+
+
+
+
         <MDBNavbarNav right> 
           <MDBNavItem> Contact me</MDBNavItem>
         
