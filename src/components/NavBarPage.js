@@ -19,7 +19,11 @@ function NavbarPage(props) {
 
 
         <MDBNavbarNav right> 
-          <MDBNavItem className="white-text"> Contact me</MDBNavItem>
+          <MDBNavItem className="white-text">
+           <a className="nav-link waves-effect images" target="_blank" href="https://medium.com"> 
+               <i class="fab fa-medium-m fa-lg white-text"></i>
+           </a>
+          </MDBNavItem>
         
         </MDBNavbarNav>
       </MDBNavbar>
