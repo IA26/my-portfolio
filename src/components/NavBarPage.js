@@ -24,6 +24,12 @@ function NavbarPage(props) {
                 <MDBIcon fas icon="code-branch" />
             </MDBNavLink>
         </MDBNavItem>
+
+        <MDBNavItem>
+            <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fab icon="linkedin-in" />
+            </MDBNavLink>
+        </MDBNavItem>
         
         <MDBNavItem>
             <MDBNavLink className="waves-effect waves-light" to="#!">
@@ -31,11 +37,7 @@ function NavbarPage(props) {
             </MDBNavLink>
         </MDBNavItem>
 
-        <MDBNavItem>
-            <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="linkedin-in" />
-            </MDBNavLink>
-        </MDBNavItem>
+        
 
         
 
