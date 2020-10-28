@@ -31,6 +31,12 @@ function NavbarPage(props) {
         </MDBNavItem>
 
         <MDBNavItem>
+            <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fas icon="code-branch" />
+            </MDBNavLink>
+        </MDBNavItem>
+
+        <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light d-flex align-items-center" to="#!">
                 <MDBIcon icon="envelope" className="mr-1" />Contact</MDBNavLink>
         </MDBNavItem>
