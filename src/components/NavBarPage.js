@@ -9,7 +9,7 @@ function NavbarPage(props) {
 
   return (
       <MDBNavbar color="black" dark expand="md">
-        <MDBNavbarBrand href="#"> Isaac Avilez </MDBNavbarBrand>
+       <MDBNavbarBrand href="#"> Isaac Avilez </MDBNavbarBrand>
          <MDBNavbarNav left>
           <MDBNavItem></MDBNavItem>
          </MDBNavbarNav>
@@ -19,10 +19,16 @@ function NavbarPage(props) {
 
         <MDBNavbarNav right> 
         <MDBNavItem>
+              <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fab icon="medium-m" />
+              </MDBNavLink>
+            </MDBNavItem>
+
+        <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light d-flex align-items-center" to="#!">
                 <MDBIcon icon="envelope" className="mr-1" />Contact</MDBNavLink>
         </MDBNavItem>
-        </MDBNavbarNav>
+       </MDBNavbarNav>
       </MDBNavbar>
     );
 }
