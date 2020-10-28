@@ -19,10 +19,16 @@ function NavbarPage(props) {
 
         <MDBNavbarNav right> 
         <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
+            <MDBNavLink className="waves-effect waves-light" to="#!">
                 <MDBIcon fab icon="medium-m" />
-              </MDBNavLink>
-            </MDBNavItem>
+            </MDBNavLink>
+        </MDBNavItem>
+
+        <MDBNavItem>
+            <MDBNavLink className="waves-effect waves-light" to="#!">
+                <MDBIcon fab icon="linkedin-in" />
+            </MDBNavLink>
+        </MDBNavItem>
 
         <MDBNavItem>
           <MDBNavLink className="waves-effect waves-light d-flex align-items-center" to="#!">
