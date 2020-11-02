@@ -35,11 +35,6 @@ function NavbarPage(props) {
         
 
 
-        {/* <MDBNavItem>
-            <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="linkedin-in" />
-            </MDBNavLink>
-        </MDBNavItem> */}
 
         {/*<MDBNavItem>
             <MDBNavLink className="waves-effect waves-light" to="#!">
