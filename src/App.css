@@ -58,3 +58,23 @@
   border-radius: 50%;
   display: inline-block;
 } */
+
+#black {
+  color: white;
+}
+
+#hover:hover {
+  transform: translateY(-4px);
+  transition:0.3s;
+}
+
+.social-icon {
+  color:black;
+  background:white; 
+  border-radius: 50%;
+  line-height: 2.2em;
+  width: 2.1em;
+  height: 2.1em;
+  text-align: center;
+  display: inline-block;
+}
