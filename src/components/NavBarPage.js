@@ -34,11 +34,6 @@ function NavbarPage(props) {
           
         
 
-         <MDBNavItem href="https://github.com/IA26">
-            <MDBNavLink className="waves-effect waves-light" to="https://hltv.org">
-              <MDBIcon fas icon="code-branch"/>   
-            </MDBNavLink>
-        </MDBNavItem> 
 
         {/* <MDBNavItem>
             <MDBNavLink className="waves-effect waves-light" to="#!">
