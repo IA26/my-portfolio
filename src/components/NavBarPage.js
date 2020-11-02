@@ -24,7 +24,6 @@ function NavbarPage(props) {
               <MDBIcon fab icon="linkedin-in" />
             </a>
            
-
             
           </MDBContainer>
           
