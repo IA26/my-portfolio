@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBarPage from './components/NavBarPage'
 import Portfolio from './containers/Portfolio'
-import SocialButtonsPage from './components/SocialButtonsPage'
 import { Router, Route, Switch } from "react-router";
 import './App.css';
 
