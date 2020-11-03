@@ -28,7 +28,7 @@ function NavbarPage(props) {
               <MDBIcon fas icon="code-branch" />
             </a>
 
-            <a href="https://youtube.com" className="social-icon hover" >
+            <a href="https://isaac1180a.medium.com/" className="social-icon hover" >
               <MDBIcon fab icon="medium-m" />
             </a>
           </MDBContainer>
