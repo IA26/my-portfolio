@@ -24,7 +24,7 @@ function NavbarPage(props) {
               <MDBIcon fab icon="linkedin-in" />
             </a>
            
-            <a href="https://youtube.com" className="social-icon hover" >
+            <a href="https://github.com/IA26" className="social-icon hover" >
               <MDBIcon fas icon="code-branch" />
             </a>
 
