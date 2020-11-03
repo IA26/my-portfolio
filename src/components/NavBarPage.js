@@ -25,7 +25,7 @@ function NavbarPage(props) {
             </a>
            
             <a href="https://github.com/IA26" className="social-icon hover" >
-              <MDBIcon fas icon="code-branch" />
+              <MDBIcon fab icon="github" />
             </a>
 
             <a href="https://isaac1180a.medium.com/" className="social-icon hover" >
