@@ -9,7 +9,7 @@ function App() {
     <div className="App" id="main-page">
         <div id="content-wrap"> 
           <NavBarPage/>
-           <Switch>
+           <Switch> 
               <Route exact path="/" render component={ Portfolio }/>
            </Switch>
         </div> 
