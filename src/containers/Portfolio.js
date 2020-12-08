@@ -5,7 +5,7 @@ function Portfolio(props) {
 
     return (
         <div className="portfolio-content">      
-          <h1>Hello there</h1>
+          <h1>Welcome to my portfolio</h1>
          
         </div> 
     )
