@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBContainer
 } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
 
 function NavbarPage(props) {
 

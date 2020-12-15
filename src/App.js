@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBarPage from './components/NavBarPage'
 import Portfolio from './containers/Portfolio'
-import { Router, Route, Switch } from "react-router";
+import { Route, Switch } from "react-router";
 import './App.css';
 
 function App() {
