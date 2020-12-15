@@ -7,7 +7,7 @@ function Portfolio(props) {
         <div className="portfolio-content">      
           <h1>Welcome to my portfolio</h1>
           <h2>Hello, my name is Isaac, and I am a Full-stack developer.</h2>
-          <h3></h3> 
+          <h3>I'm an avid enjoyer of lifting weights, and programming.</h3> 
          
         </div> 
     )
