@@ -9,7 +9,7 @@ function Portfolio(props) {
           <h2>Hello, my name is Isaac, and I am a Full-stack developer.</h2>
           <h3>I'm an avid enjoyer of lifting weights, and programming.</h3> 
           <h3>Below I've added some of my projects that I've worked on.</h3>
-         
+          
         </div> 
     )
 }
