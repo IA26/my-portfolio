@@ -12,7 +12,15 @@ function Portfolio(props) {
           
 
           <ul>
-            <a href="https://github.com/IA26/covidgains-front-end"> Covid-gains front-end</a>
+            <li> 
+              <a href="https://github.com/IA26/covidgains-front-end"> Covid-gains front-end</a>
+            </li> 
+            <li> 
+              <a href="https://github.com/IA26/covidgains-back-end"> Covid-gains front-end</a>
+            </li>
+            <li> 
+              <a href="https://github.com/IA26/house-of-gains"> House of gains</a>
+            </li>
           </ul>
         </div> 
     )
