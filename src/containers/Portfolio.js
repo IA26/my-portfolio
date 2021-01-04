@@ -24,6 +24,8 @@ function Portfolio(props) {
               <a href="https://github.com/IA26/house-of-gains"> House of gains</a>
             </li>
           </ul>
+
+          <h3>If you wwould like to contact me, check out my <a href="https://www.linkedin.com/in/isaac-sampson-avilez-423672197/">linkedIn</a></h3> 
         </div> 
     )
 }
