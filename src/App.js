@@ -13,6 +13,7 @@ function App() {
               <Route exact path="/" render component={ Portfolio }/>
            </Switch>
         </div> 
+        <footer id="footer"> Footer for information</footer>
     </div>
   );
 }
