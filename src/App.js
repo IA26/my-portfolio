@@ -13,7 +13,10 @@ function App() {
               <Route exact path="/" render component={ Portfolio }/>
            </Switch>
         </div> 
-        <footer id="footer"> Footer for information</footer>
+        <footer id="footer">
+            <div  color="black">Footer for information
+            </div> 
+         </footer>
     </div>
   );
 }
