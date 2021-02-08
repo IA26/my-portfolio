@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBarPage from './components/NavBarPage'
 import Portfolio from './containers/Portfolio'
+import Skills from './containers/Skills'
 import { Route, Switch } from "react-router";
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
           <NavBarPage/>
            <Switch> 
               <Route exact path="/" render component={ Portfolio }/>
+              <Route exact path="/skills" render component={ Skills } /> 
            </Switch>
         </div> 
         <footer id="footer">
