@@ -1,15 +1,19 @@
 import React from "react";
 import {
-MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBContainer
+MDBNavbar, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBContainer
 } from "mdbreact";
 
 function NavbarPage(props) {
 
   return (
       <MDBNavbar color="black" dark expand="md">
-       <MDBNavbarBrand href="#"> <strong>Isaac A.</strong> </MDBNavbarBrand>
+       <MDBNavbarBrand href="/"> <strong>Isaac A.</strong> </MDBNavbarBrand>
          <MDBNavbarNav left>
-          <MDBNavItem></MDBNavItem>
+
+           <MDBNavItem>
+             <MDBNavLink to="/skills">Skills</MDBNavLink>
+           </MDBNavItem>
+          
          </MDBNavbarNav>
 
 
