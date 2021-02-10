@@ -31,7 +31,8 @@ function Skills(props) {
 
             <h3>Databases:</h3> 
             <ul>
-                <li>SQLite</li>
+                <li>SQL</li>  
+                <li>MySQL</li>
                 <li>PostGres</li>
                 <li>MongoDB</li>
             </ul> 
