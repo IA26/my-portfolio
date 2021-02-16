@@ -11,7 +11,7 @@ function NavbarPage(props) {
          <MDBNavbarNav left>
 
            <MDBNavItem>
-             <MDBNavLink to="/skills">Skills</MDBNavLink>
+             <MDBNavLink to="/skills"><strong>Skills</strong></MDBNavLink>
            </MDBNavItem>
           
          </MDBNavbarNav>
