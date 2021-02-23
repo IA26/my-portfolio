@@ -6,8 +6,7 @@ function Portfolio(props) {
 
     return (
         <div className="portfolio-content">      
-          <h1>Welcome to my portfolio</h1>
-          <h2>Hello, my name is Isaac, and I am a Full-stack developer.</h2>
+          <h1>Hello, my name is Isaac, and I am a Full-stack developer.</h1>
           <h3>Below I've added some of my projects that I've worked on.</h3>
           
 
