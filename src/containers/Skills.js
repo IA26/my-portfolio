@@ -33,7 +33,7 @@ function Skills(props) {
             <ul>
                 <li>SQL</li>  
                 <li>MySQL</li>
-                <li>PostGres</li>
+                <li>PostgreSQL</li>
                 <li>MongoDB</li>
             </ul> 
         </>
