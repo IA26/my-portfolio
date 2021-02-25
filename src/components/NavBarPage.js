@@ -20,7 +20,11 @@ function NavbarPage(props) {
 
 
         <MDBNavbarNav right>  
-          <MDBContainer>
+
+          <MDBNavItem>
+             <MDBNavLink to="/contact"><strong class="paths">Contact</strong></MDBNavLink>
+          </MDBNavItem>
+          {/* <MDBContainer>
             <a href="https://www.linkedin.com/in/isaac-sampson-avilez-423672197/" className="social-icon hover">
               <MDBIcon fab icon="linkedin-in" />
             </a>
@@ -32,7 +36,7 @@ function NavbarPage(props) {
             <a href="https://isaac1180a.medium.com/" className="social-icon hover" >
               <MDBIcon fab icon="medium-m" />
             </a>
-          </MDBContainer>
+          </MDBContainer> */}
           
           
         
