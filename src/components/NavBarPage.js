@@ -7,11 +7,11 @@ function NavbarPage(props) {
 
   return (
       <MDBNavbar color="white" dark expand="md">
-       <MDBNavbarBrand href="/"> <strong>Isaac A.</strong> </MDBNavbarBrand>
+       <MDBNavbarBrand href="/"> <strong class="paths">Isaac A.</strong> </MDBNavbarBrand>
          <MDBNavbarNav left>
 
-           <MDBNavItem class="paths">
-             <MDBNavLink to="/skills"><strong>Skills</strong></MDBNavLink>
+           <MDBNavItem>
+             <MDBNavLink to="/skills"><strong class="paths">Skills</strong></MDBNavLink>
            </MDBNavItem>
           
          </MDBNavbarNav>
