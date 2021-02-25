@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -92,4 +94,26 @@
 
 .paths { 
   color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#name {
+  font-weight: bold;
+  font-size: xx-large;
+  
+}
+
+
+.navbar.navbar-default {
+  
+}
+
+MDBNavBar {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #99ccff;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }

@@ -7,12 +7,10 @@ function NavbarPage(props) {
 
   return (
       <MDBNavbar color="white" dark expand="md">
-       <MDBNavbarBrand href="/"> <strong class="paths">Isaac A.</strong> </MDBNavbarBrand>
+       <MDBNavbarBrand href="/"> <strong id="name" class="paths">Isaac A.</strong> </MDBNavbarBrand>
          <MDBNavbarNav left>
 
-           <MDBNavItem>
-             <MDBNavLink to="/skills"><strong class="paths">Skills</strong></MDBNavLink>
-           </MDBNavItem>
+           
           
          </MDBNavbarNav>
 
@@ -22,9 +20,16 @@ function NavbarPage(props) {
         <MDBNavbarNav right>  
 
           <MDBNavItem>
+             <MDBNavLink to="/skills"><strong class="paths">Skills</strong></MDBNavLink>
+          </MDBNavItem>
+
+          <MDBNavItem>
              <MDBNavLink to="/contact"><strong class="paths">Contact</strong></MDBNavLink>
           </MDBNavItem>
-          {/* <MDBContainer>
+
+          
+           
+           {/* <MDBContainer>
             <a href="https://www.linkedin.com/in/isaac-sampson-avilez-423672197/" className="social-icon hover">
               <MDBIcon fab icon="linkedin-in" />
             </a>
