@@ -6,11 +6,11 @@ MDBNavbar, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBCon
 function NavbarPage(props) {
 
   return (
-      <MDBNavbar color="black" dark expand="md">
+      <MDBNavbar color="white" dark expand="md">
        <MDBNavbarBrand href="/"> <strong>Isaac A.</strong> </MDBNavbarBrand>
          <MDBNavbarNav left>
 
-           <MDBNavItem>
+           <MDBNavItem class="paths">
              <MDBNavLink to="/skills"><strong>Skills</strong></MDBNavLink>
            </MDBNavItem>
           
