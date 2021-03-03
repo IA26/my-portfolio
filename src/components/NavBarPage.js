@@ -1,12 +1,12 @@
 import React from "react";
 import {
-MDBNavbar, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBContainer
+MDBNav, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBContainer
 } from "mdbreact";
 
 function NavbarPage(props) {
 
   return (
-      <MDBNavbar color="white" dark expand="md">
+      <MDBNav color="white" dark expand="md">
        <MDBNavbarBrand href="/"> <strong id="name" class="paths">Isaac A.</strong> </MDBNavbarBrand>
          <MDBNavbarNav left>
 
@@ -48,7 +48,7 @@ function NavbarPage(props) {
 
         
        </MDBNavbarNav>
-      </MDBNavbar>
+      </MDBNav>
     );
 }
 
