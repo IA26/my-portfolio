@@ -1,24 +1,22 @@
 import React from "react";
 import {
-MDBNav, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBCol
+MDBNav, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBCol
 } from "mdbreact";
 
 function NavbarPage(props) {
 
   return (
       <MDBNav color="white" dark expand="md">
-       <MDBNavbarBrand href="/"> <strong id="name" class="paths">Isaac A.</strong> </MDBNavbarBrand>
+       
          <MDBNavbarNav left>
-
-           
-          
+            <MDBNavbarBrand href="/"> <strong id="name" class="paths">Isaac A.</strong> </MDBNavbarBrand>
          </MDBNavbarNav>
 
 
          
 
           
-         <MDBNav className="flex-column font-weight-bold">
+         
           <MDBNavItem>
              <MDBNavLink to="/skills"><strong class="paths">Skills</strong></MDBNavLink>
           </MDBNavItem>
@@ -27,7 +25,7 @@ function NavbarPage(props) {
              <MDBNavLink to="/contact"><strong class="paths">Contact</strong></MDBNavLink>
           </MDBNavItem>
 
-         </MDBNav> 
+         
            
            {/* <MDBContainer>
             <a href="https://www.linkedin.com/in/isaac-sampson-avilez-423672197/" className="social-icon hover">
