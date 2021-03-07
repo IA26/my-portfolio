@@ -1,6 +1,6 @@
 import React from "react";
 import {
-MDBNav, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBContainer
+MDBNav, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBIcon, MDBCol
 } from "mdbreact";
 
 function NavbarPage(props) {
@@ -15,10 +15,10 @@ function NavbarPage(props) {
          </MDBNavbarNav>
 
 
+         
 
-
-        <MDBNavbarNav right>  
-
+          
+         <MDBNav className="flex-column font-weight-bold">
           <MDBNavItem>
              <MDBNavLink to="/skills"><strong class="paths">Skills</strong></MDBNavLink>
           </MDBNavItem>
@@ -27,7 +27,7 @@ function NavbarPage(props) {
              <MDBNavLink to="/contact"><strong class="paths">Contact</strong></MDBNavLink>
           </MDBNavItem>
 
-          
+         </MDBNav> 
            
            {/* <MDBContainer>
             <a href="https://www.linkedin.com/in/isaac-sampson-avilez-423672197/" className="social-icon hover">
@@ -43,11 +43,6 @@ function NavbarPage(props) {
             </a>
           </MDBContainer> */}
           
-          
-        
-
-        
-       </MDBNavbarNav>
       </MDBNav>
     );
 }
