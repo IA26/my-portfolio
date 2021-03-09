@@ -1,6 +1,6 @@
 import React from "react";
 import {
-MDBNav, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBCol
+MDBNav, MDBNavLink, MDBNavbarBrand, MDBNavbarNav, MDBNavItem
 } from "mdbreact";
 
 function NavbarPage(props) {
