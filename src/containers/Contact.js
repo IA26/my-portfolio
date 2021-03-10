@@ -5,7 +5,8 @@ import {
 
 function Contact(props) {
     return (
-        <>
+       <>
+        <h1>Get in touch.</h1>
         <MDBContainer>
             <a href="https://www.linkedin.com/in/isaac-sampson-avilez-423672197/" className="social-icon hover">
               <MDBIcon fab icon="linkedin-in" />
@@ -19,7 +20,7 @@ function Contact(props) {
               <MDBIcon fab icon="medium-m" />
             </a>
         </MDBContainer> 
-        </>
+    </>
     )
 }
 
