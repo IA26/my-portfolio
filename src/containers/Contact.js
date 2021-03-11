@@ -1,29 +1,27 @@
 import React from "react";
 import {
- MDBIcon, MDBContainer, MDBInput
+ MDBIcon, MDBContainer, MDBCol
 } from "mdbreact";
 
 function Contact(props) {
     return (
        <>
        <div className="contact-content">
-           <h1 id="contact-id">Contact me</h1>
+
+
+
+        <h1 id="contact-id">Contact me</h1>
 
 
 
 
 
-
-
-        <div className="form-group">
-            <label htmlFor="exampleFormControlTextarea1">
-            Basic textarea
-            </label>
-            <textarea
-            className="form-control"
-            id="exampleFormControlTextarea1"
-            rows="5"
-            />
+        <div className="form d-flex justify-content-center">
+            <MDBCol md="1" className="form-group">
+                <label htmlFor="exampleFormControlTextarea1"></label>
+                <textarea className="form-control " id="textarea" rows="2" placeholder="Name"/>
+            </MDBCol>
+            
         </div>
 
 
