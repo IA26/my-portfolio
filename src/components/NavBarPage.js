@@ -22,6 +22,10 @@ function NavbarPage(props) {
           </MDBNavItem>
 
           <MDBNavItem>
+            <a href="https://github.com/IA26"><strong>Blog</strong></a>
+          </MDBNavItem>
+
+          <MDBNavItem>
              <MDBNavLink to="/contact"><strong class="paths">Contact</strong></MDBNavLink>
           </MDBNavItem>
 

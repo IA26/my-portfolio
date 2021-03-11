@@ -46,4 +46,4 @@ function Contact(props) {
     )
 }
 
-export default Contact
+export default Contact;
