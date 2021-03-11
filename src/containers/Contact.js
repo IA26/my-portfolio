@@ -7,7 +7,7 @@ function Contact(props) {
     return (
        <>
        <div className="contact-content">
-           <h1 id="contact-id">Contact me.</h1>
+           <h1 id="contact-id">Contact me</h1>
         <MDBContainer>
             <a href="https://www.linkedin.com/in/isaac-sampson-avilez-423672197/" className="social-icon hover">
               <MDBIcon fab icon="linkedin-in" />
