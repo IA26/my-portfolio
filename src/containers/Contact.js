@@ -12,7 +12,7 @@ function Contact(props) {
 
         <h1 id="contact-id">Contact me</h1>
 
-
+        
 
 
 

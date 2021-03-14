@@ -21,8 +21,12 @@ function NavbarPage(props) {
              <MDBNavLink to="/skills"><strong class="paths">Skills</strong></MDBNavLink>
           </MDBNavItem>
 
-          <MDBNavItem>
-            <a href="https://github.com/IA26"><strong>Blog</strong></a>
+          {/* <MDBNavItem>
+             <MDBNavLink to="/" href="https://student.lvh.me:8080/users/edit"><strong>Skisasalls</strong></MDBNavLink>
+          </MDBNavItem> */}
+
+          <MDBNavItem id="nav-blog">
+            <a id="nav-blog" className="paths" href="https://github.com/IA26"><strong>Blog</strong></a>
           </MDBNavItem>
 
           <MDBNavItem>

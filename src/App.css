@@ -117,6 +117,10 @@
   margin-right: auto;
 }
 
+#nav-blog {
+  height: -10px;
+}
+
 .form-group {
   
 }
