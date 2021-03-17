@@ -19,6 +19,7 @@ function Skills(props) {
             <ul>
                 <li>Express.js</li>
                 <li>Ruby on Rails</li>
+                <li>Bootstrap</li>
             </ul>
 
 
