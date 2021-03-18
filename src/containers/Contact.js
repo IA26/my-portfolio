@@ -1,12 +1,30 @@
 import React from "react";
-import {
- MDBIcon, MDBContainer, MDBCol
-} from "mdbreact";
 
 function Contact(props) {
     return (
        <>
-       <div className="contact-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       {/* <div className="contact-content">
 
 
 
@@ -20,8 +38,7 @@ function Contact(props) {
             <MDBCol md="1" className="form-group">
                 <label htmlFor="exampleFormControlTextarea1"></label>
                 <textarea className="form-control " id="textarea" rows="2" placeholder="Name"/>
-            </MDBCol>
-            
+            </MDBCol>   
         </div>
 
 
@@ -41,7 +58,7 @@ function Contact(props) {
            </MDBContainer> 
        </div>   
        
-     </div>
+     </div> */}
     </>
     )
 }
