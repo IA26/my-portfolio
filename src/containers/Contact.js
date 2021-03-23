@@ -58,8 +58,8 @@ function Contact(props) {
            </MDBContainer> 
        </div>   
        
-     </div> */}
-    </>
+    </div> */}
+     </>
     )
 }
 

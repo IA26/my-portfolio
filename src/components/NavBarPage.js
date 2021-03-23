@@ -3,7 +3,8 @@ import React from "react";
 function NavbarPage(props) {
 
   return (
-      // <MDBNav color="white" dark expand="md">
+    <>
+      {/* // <MDBNav color="white" dark expand="md">
        
       //    <MDBNavbarNav left>
       //       <MDBNavbarBrand href="/"> <strong id="name" class="paths">Isaac A.</strong> </MDBNavbarBrand>
@@ -22,17 +23,17 @@ function NavbarPage(props) {
       //        <MDBNavLink to="/" href="https://student.lvh.me:8080/users/edit"><strong>Skisasalls</strong></MDBNavLink>
       //     </MDBNavItem> */}
 
-      //     <MDBNavItem id="nav-blog">
+      {/* //     <MDBNavItem id="nav-blog">
       //       <a id="nav-blog" className="paths"href="https://github.com/IA26"><strong>Blog</strong></a>
       //     </MDBNavItem>
 
       //     <MDBNavItem>
       //        <MDBNavLink to="/contact"><strong class="paths">Contact</strong></MDBNavLink>
-      //     </MDBNavItem>
+      //     </MDBNavItem> */} 
 
          
            
-      //      {/* <MDBContainer>
+              {/* <MDBContainer>
       //       <a href="https://www.linkedin.com/in/isaac-sampson-avilez-423672197/" className="social-icon hover">
       //         <MDBIcon fab icon="linkedin-in" />
       //       </a>
@@ -46,7 +47,8 @@ function NavbarPage(props) {
       //       </a>
       //     </MDBContainer> */}
           
-      // </MDBNav>
+      {/* // </MDBNav> */}
+      </>
     );
 }
 
