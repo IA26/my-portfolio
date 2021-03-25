@@ -18,9 +18,7 @@ function App() {
            </Switch>
         </div> 
         <footer id="footer">
-            <div id="footer-content" >
-              Footer for information
-            </div> 
+           
          </footer>
     </div>
   );
