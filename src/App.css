@@ -121,6 +121,7 @@
   height: -10px;
 }
 
-.form-group {
-  
+#nav-background {
+  background-color: black;
+  color: black;
 }

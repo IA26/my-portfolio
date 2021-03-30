@@ -4,6 +4,12 @@ function NavbarPage(props) {
 
   return (
     <>
+    <nav class="navbar navbar-expand-lg navbar-light nav-background"> 
+     <a class="navbar-brand" href="#">Isaac Avilez</a>
+
+    </nav>
+
+
       {/* // <MDBNav color="white" dark expand="md">
        
       //    <MDBNavbarNav left>
