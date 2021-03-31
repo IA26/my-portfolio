@@ -4,7 +4,7 @@ function NavbarPage(props) {
 
   return (
     <>
-    <nav class="navbar navbar-expand-lg navbar-light nav-custom"> 
+    <nav class="navbar navbar-expand-lg navbar-dark nav-custom"> 
      <a class="navbar-brand" href="#">Isaac Avilez</a>
 
     </nav>
