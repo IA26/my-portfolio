@@ -1,4 +1,6 @@
 import React from "react";
+import {NavLink} from 'react-router-dom'
+
 
 function NavbarPage(props) {
 
@@ -8,7 +10,7 @@ function NavbarPage(props) {
      <a class="navbar-brand" href="#">Isaac Avilez</a>
       <div className="collapse navbar-collapse vertically-centered" id="navbarNav">
        <ul className="navbar-nav">
-         
+
        </ul>
       </div>
 
