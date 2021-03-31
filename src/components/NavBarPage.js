@@ -6,6 +6,23 @@ function NavbarPage(props) {
     <>
     <nav class="navbar navbar-expand-lg navbar-dark nav-custom"> 
      <a class="navbar-brand" href="#">Isaac Avilez</a>
+      <div className="collapse navbar-collapse vertically-centered" id="navbarNav">
+       <ul className="navbar-nav">
+         
+       </ul>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
     </nav>
 
