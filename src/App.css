@@ -121,7 +121,7 @@
   height: -10px;
 }
 
-#nav-background {
+.nav-custom {
   background-color: black;
   color: black;
 }
