@@ -3,6 +3,8 @@ import '../NavBar.css'
 
 const NavBar = () => {
 
+    const [navbar, setNavBar] = useState(false)
+
     
     return (
         <nav className="navbar nav-black navbar-dark"> 
