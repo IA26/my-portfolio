@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBarPage from './components/NavBarPage'
+// import NavBarPage from './components/NavBarPage'
 import Portfolio from './containers/Portfolio'
 import Skills from './containers/Skills'
 import Contact from './containers/Contact'

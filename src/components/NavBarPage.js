@@ -7,7 +7,7 @@ function NavbarPage(props) {
   return (
     <>
     <nav class="navbar navbar-expand-lg navbar-dark nav-custom"> 
-     <a class="navbar-brand" href="/#">Isaac Avilez</a>
+     <a class="navbar-brand" href="/">Isaac Avilez</a>
       <div className="collapse navbar-collapse vertically-centered" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item" >
