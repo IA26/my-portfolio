@@ -1,12 +1,12 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import '../NavBar.css'
 
 const NavBar = () => {
 
     
     return (
-        <nav class="navbar"> 
-            
+        <nav className="navbar nav-black navbar-dark"> 
+            THE WHAT
         </nav>
     )
 }

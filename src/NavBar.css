@@ -1,8 +1,9 @@
-.nav {
+.navbar {
     height: 30px;
     width: 100%;
+    position: fixed;
 }
 
-.nav__black {
-    
+.nav-black {
+    background: black;
 }

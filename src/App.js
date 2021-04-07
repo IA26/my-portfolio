@@ -18,6 +18,28 @@ function App() {
               <Route exact path="/contact" render component={ Contact } /> 
            </Switch>
         </div> 
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1><h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        <h1> Something </h1>
+        
+
         <footer id="footer">
            
          </footer>
