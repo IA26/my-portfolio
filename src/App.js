@@ -1,5 +1,6 @@
 import React from 'react';
 // import NavBarPage from './components/NavBarPage'
+import NavBar from './components/NavBar'
 import Portfolio from './containers/Portfolio'
 import Skills from './containers/Skills'
 import Contact from './containers/Contact'
@@ -10,7 +11,7 @@ function App() {
   return (
     <div className="App" id="main-page">
         <div id="content-wrap"> 
-          <NavBarPage/>
+          <NavBar/>
            <Switch> 
               <Route exact path="/" render component={ Portfolio }/>
               <Route exact path="/skills" render component={ Skills } /> 
